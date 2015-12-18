@@ -2,6 +2,7 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 ## Build generated
+
 #####
 # OS X temporary files that should never be committed
 .DS_Store
@@ -31,6 +32,9 @@ DerivedData/
 # NBL slash on the end, so we only remove the folder, not any files that were badly named "build"
 
 build/
+
+# ingore third party lib
+ThirdPartyLib/
 
 
 ## Various settings
