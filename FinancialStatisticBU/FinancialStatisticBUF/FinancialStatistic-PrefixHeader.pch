@@ -1,0 +1,17 @@
+//
+//  FinancialStatistic-PrefixHeader.pch
+//  FinancialStatisticBU
+//
+//  Created by Somiya on 15/10/29.
+//  Copyright © 2015年 Somiya. All rights reserved.
+//
+
+#ifndef FinancialStatistic_PrefixHeader_pch
+#define FinancialStatistic_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <BaseBusiness/BaseBusiness.h>
+//#import <Charts/Charts.h>
+
+#endif /* FinancialStatistic_PrefixHeader_pch */

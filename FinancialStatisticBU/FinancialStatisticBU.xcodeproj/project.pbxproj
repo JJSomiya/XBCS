@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70B59F61BD29C7900836601 /* FinancialStatistic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70B598A1BD23AD000836601 /* FinancialStatistic.storyboard */; };
+		E70CE95B1BF45D2D0069EF66 /* ReportingDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E70CE9591BF45D2D0069EF66 /* ReportingDetailViewController.h */; settings = {ASSET_TAGS = (); }; };
+		E70CE95C1BF45D2D0069EF66 /* ReportingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70CE95A1BF45D2D0069EF66 /* ReportingDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E74DADC31BEB06E1000A5235 /* FinancialStatisticBUF.h in Headers */ = {isa = PBXBuildFile; fileRef = E74DADC21BEB06E1000A5235 /* FinancialStatisticBUF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74DADCF1BEB06E1000A5235 /* FinancialStatisticBUFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E74DADCE1BEB06E1000A5235 /* FinancialStatisticBUFTests.m */; };
+		E74DADDC1BEB076F000A5235 /* WaterballView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F45AB1BE9E93200ED822D /* WaterballView.m */; };
+		E74DADDD1BEB076F000A5235 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F45AE1BE9EF0000ED822D /* LineView.m */; };
+		E74DADDE1BEB076F000A5235 /* FinancialStatisticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B59881BD23AAD00836601 /* FinancialStatisticViewController.m */; };
+		E74DADDF1BEB076F000A5235 /* FinancialStatisticBU.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B59741BD23A5000836601 /* FinancialStatisticBU.m */; };
+		E74DADE11BEB077C000A5235 /* BaseBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CD5B4B1BE21F19007B4C1B /* BaseBusiness.framework */; };
+		E74DADF61BEB08D0000A5235 /* FinancialStatistic-PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = E74DADF51BEB08D0000A5235 /* FinancialStatistic-PrefixHeader.pch */; settings = {ASSET_TAGS = (); }; };
+		E74DADF91BEB0B30000A5235 /* FinancialStatisticBUF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74DADC01BEB06E1000A5235 /* FinancialStatisticBUF.framework */; };
+		E77BD2E31BEB30B7007D14EA /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77BD2E01BEB30B7007D14EA /* BalloonMarker.swift */; settings = {ASSET_TAGS = (); }; };
+		E77BD2E51BEB30B7007D14EA /* MyCustomXValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E77BD2E21BEB30B7007D14EA /* MyCustomXValueFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		E77BD2E61BEB30C7007D14EA /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77BD2DD1BEB3095007D14EA /* Charts.framework */; };
+		E7C883EC1C22CB3B003C19E6 /* bg_tk_003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C883EB1C22CB3B003C19E6 /* bg_tk_003@2x.png */; settings = {ASSET_TAGS = (); }; };
+		E7ED5C9B1C0327D500C469A3 /* FinancialStatisticBusObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E7ED5C991C0327D500C469A3 /* FinancialStatisticBusObject.h */; settings = {ASSET_TAGS = (); }; };
+		E7ED5C9C1C0327D500C469A3 /* FinancialStatisticBusObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED5C9A1C0327D500C469A3 /* FinancialStatisticBusObject.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74DADF71BEB0B2B000A5235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70B59671BD23A5000836601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74DADBF1BEB06E1000A5235;
+			remoteInfo = FinancialStatisticBUF;
+		};
+		E77BD2DC1BEB3095007D14EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77BD2D71BEB3095007D14EA /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = Charts;
+		};
+		E77BD2DE1BEB3095007D14EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77BD2D71BEB3095007D14EA /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = ChartsTV;
+		};
+		E7C884991C22E49E003C19E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E70B59671BD23A5000836601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E70B59991BD2874700836601;
+			remoteInfo = FinancialStatisticBundle;
+		};
+		E7CD5B4A1BE21F19007B4C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CD5B441BE21F19007B4C1B /* BaseBusiness.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7FE49B51BD4BD0F00B0ED4F;
+			remoteInfo = BaseBusiness;
+		};
+		E7CD5B4C1BE21F19007B4C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CD5B441BE21F19007B4C1B /* BaseBusiness.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7FE49BF1BD4BD0F00B0ED4F;
+			remoteInfo = BaseBusinessTests;
+		};
+		E7CD5B4E1BE21F19007B4C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CD5B441BE21F19007B4C1B /* BaseBusiness.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7FE4A0A1BD4C1B100B0ED4F;
+			remoteInfo = BaseBusinessBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E70B59721BD23A5000836601 /* FinancialStatisticBU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancialStatisticBU.h; sourceTree = "<group>"; };
+		E70B59741BD23A5000836601 /* FinancialStatisticBU.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialStatisticBU.m; sourceTree = "<group>"; };
+		E70B59871BD23AAD00836601 /* FinancialStatisticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialStatisticViewController.h; sourceTree = "<group>"; };
+		E70B59881BD23AAD00836601 /* FinancialStatisticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialStatisticViewController.m; sourceTree = "<group>"; };
+		E70B598A1BD23AD000836601 /* FinancialStatistic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FinancialStatistic.storyboard; path = ../FinancialStatistic.storyboard; sourceTree = "<group>"; };
+		E70B599A1BD2874700836601 /* FinancialStatisticBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialStatisticBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70CE9591BF45D2D0069EF66 /* ReportingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportingDetailViewController.h; sourceTree = "<group>"; };
+		E70CE95A1BF45D2D0069EF66 /* ReportingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportingDetailViewController.m; sourceTree = "<group>"; };
+		E70F45AA1BE9E93200ED822D /* WaterballView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterballView.h; sourceTree = "<group>"; };
+		E70F45AB1BE9E93200ED822D /* WaterballView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterballView.m; sourceTree = "<group>"; };
+		E70F45AD1BE9EF0000ED822D /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		E70F45AE1BE9EF0000ED822D /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		E74DADC01BEB06E1000A5235 /* FinancialStatisticBUF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FinancialStatisticBUF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74DADC21BEB06E1000A5235 /* FinancialStatisticBUF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancialStatisticBUF.h; sourceTree = "<group>"; };
+		E74DADC41BEB06E1000A5235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74DADC91BEB06E1000A5235 /* FinancialStatisticBUFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialStatisticBUFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74DADCE1BEB06E1000A5235 /* FinancialStatisticBUFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialStatisticBUFTests.m; sourceTree = "<group>"; };
+		E74DADD01BEB06E1000A5235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74DADF51BEB08D0000A5235 /* FinancialStatistic-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FinancialStatistic-PrefixHeader.pch"; sourceTree = "<group>"; };
+		E77BD2D71BEB3095007D14EA /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../ThirdPartyLib/Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		E77BD2E01BEB30B7007D14EA /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		E77BD2E11BEB30B7007D14EA /* MyCustomXValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomXValueFormatter.h; sourceTree = "<group>"; };
+		E77BD2E21BEB30B7007D14EA /* MyCustomXValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomXValueFormatter.m; sourceTree = "<group>"; };
+		E7C883EB1C22CB3B003C19E6 /* bg_tk_003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg_tk_003@2x.png"; path = "FinancialStatisticBundle/bg_tk_003@2x.png"; sourceTree = "<group>"; };
+		E7C884BE1C23068D003C19E6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7CD5B441BE21F19007B4C1B /* BaseBusiness.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BaseBusiness.xcodeproj; path = ../BaseBusiness/BaseBusiness.xcodeproj; sourceTree = "<group>"; };
+		E7ED5C991C0327D500C469A3 /* FinancialStatisticBusObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialStatisticBusObject.h; sourceTree = "<group>"; };
+		E7ED5C9A1C0327D500C469A3 /* FinancialStatisticBusObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialStatisticBusObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70B59971BD2874700836601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DADBC1BEB06E1000A5235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77BD2E61BEB30C7007D14EA /* Charts.framework in Frameworks */,
+				E74DADE11BEB077C000A5235 /* BaseBusiness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DADC61BEB06E1000A5235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74DADF91BEB0B30000A5235 /* FinancialStatisticBUF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E70B59661BD23A5000836601 = {
+			isa = PBXGroup;
+			children = (
+				E70B59861BD23A8A00836601 /* Dependency */,
+				E70B59841BD23A7B00836601 /* Home */,
+				E70B59711BD23A5000836601 /* FinancialStatisticBU */,
+				E70B599B1BD2874700836601 /* FinancialStatisticBundle */,
+				E74DADC11BEB06E1000A5235 /* FinancialStatisticBUF */,
+				E74DADCD1BEB06E1000A5235 /* FinancialStatisticBUFTests */,
+				E70B59701BD23A5000836601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E70B59701BD23A5000836601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70B599A1BD2874700836601 /* FinancialStatisticBundle.bundle */,
+				E74DADC01BEB06E1000A5235 /* FinancialStatisticBUF.framework */,
+				E74DADC91BEB06E1000A5235 /* FinancialStatisticBUFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70B59711BD23A5000836601 /* FinancialStatisticBU */ = {
+			isa = PBXGroup;
+			children = (
+				E70B59721BD23A5000836601 /* FinancialStatisticBU.h */,
+				E70B59741BD23A5000836601 /* FinancialStatisticBU.m */,
+			);
+			path = FinancialStatisticBU;
+			sourceTree = "<group>";
+		};
+		E70B59841BD23A7B00836601 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED5C981C0327C700C469A3 /* LHBus */,
+				E74DADB11BEB03F9000A5235 /* Components */,
+				E70F45A81BE9E92600ED822D /* Views */,
+				E7CD5B431BE217C8007B4C1B /* cells */,
+				E70B59871BD23AAD00836601 /* FinancialStatisticViewController.h */,
+				E70B59881BD23AAD00836601 /* FinancialStatisticViewController.m */,
+				E70CE9591BF45D2D0069EF66 /* ReportingDetailViewController.h */,
+				E70CE95A1BF45D2D0069EF66 /* ReportingDetailViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		E70B59851BD23A8200836601 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7C883EB1C22CB3B003C19E6 /* bg_tk_003@2x.png */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E70B59861BD23A8A00836601 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				E77BD2D71BEB3095007D14EA /* Charts.xcodeproj */,
+				E7CD5B441BE21F19007B4C1B /* BaseBusiness.xcodeproj */,
+			);
+			name = Dependency;
+			sourceTree = "<group>";
+		};
+		E70B599B1BD2874700836601 /* FinancialStatisticBundle */ = {
+			isa = PBXGroup;
+			children = (
+				E7C884BE1C23068D003C19E6 /* Info.plist */,
+				E70B598A1BD23AD000836601 /* FinancialStatistic.storyboard */,
+				E70B59851BD23A8200836601 /* Resources */,
+			);
+			path = FinancialStatisticBundle;
+			sourceTree = "<group>";
+		};
+		E70F45A81BE9E92600ED822D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E70F45AA1BE9E93200ED822D /* WaterballView.h */,
+				E70F45AB1BE9E93200ED822D /* WaterballView.m */,
+				E70F45AD1BE9EF0000ED822D /* LineView.h */,
+				E70F45AE1BE9EF0000ED822D /* LineView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E74DADB11BEB03F9000A5235 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E77BD2E01BEB30B7007D14EA /* BalloonMarker.swift */,
+				E77BD2E11BEB30B7007D14EA /* MyCustomXValueFormatter.h */,
+				E77BD2E21BEB30B7007D14EA /* MyCustomXValueFormatter.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		E74DADC11BEB06E1000A5235 /* FinancialStatisticBUF */ = {
+			isa = PBXGroup;
+			children = (
+				E74DADF51BEB08D0000A5235 /* FinancialStatistic-PrefixHeader.pch */,
+				E74DADC21BEB06E1000A5235 /* FinancialStatisticBUF.h */,
+				E74DADC41BEB06E1000A5235 /* Info.plist */,
+			);
+			path = FinancialStatisticBUF;
+			sourceTree = "<group>";
+		};
+		E74DADCD1BEB06E1000A5235 /* FinancialStatisticBUFTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74DADCE1BEB06E1000A5235 /* FinancialStatisticBUFTests.m */,
+				E74DADD01BEB06E1000A5235 /* Info.plist */,
+			);
+			path = FinancialStatisticBUFTests;
+			sourceTree = "<group>";
+		};
+		E77BD2D81BEB3095007D14EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77BD2DD1BEB3095007D14EA /* Charts.framework */,
+				E77BD2DF1BEB3095007D14EA /* ChartsTV.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7CD5B431BE217C8007B4C1B /* cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		E7CD5B451BE21F19007B4C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD5B4B1BE21F19007B4C1B /* BaseBusiness.framework */,
+				E7CD5B4D1BE21F19007B4C1B /* BaseBusinessTests.xctest */,
+				E7CD5B4F1BE21F19007B4C1B /* BaseBusinessBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7ED5C981C0327C700C469A3 /* LHBus */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED5C991C0327D500C469A3 /* FinancialStatisticBusObject.h */,
+				E7ED5C9A1C0327D500C469A3 /* FinancialStatisticBusObject.m */,
+			);
+			name = LHBus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E74DADBD1BEB06E1000A5235 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74DADC31BEB06E1000A5235 /* FinancialStatisticBUF.h in Headers */,
+				E7ED5C9B1C0327D500C469A3 /* FinancialStatisticBusObject.h in Headers */,
+				E70CE95B1BF45D2D0069EF66 /* ReportingDetailViewController.h in Headers */,
+				E74DADF61BEB08D0000A5235 /* FinancialStatistic-PrefixHeader.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E70B59991BD2874700836601 /* FinancialStatisticBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70B599D1BD2874700836601 /* Build configuration list for PBXNativeTarget "FinancialStatisticBundle" */;
+			buildPhases = (
+				E70B59961BD2874700836601 /* Sources */,
+				E70B59971BD2874700836601 /* Frameworks */,
+				E70B59981BD2874700836601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinancialStatisticBundle;
+			productName = FinancialStatisticBundle;
+			productReference = E70B599A1BD2874700836601 /* FinancialStatisticBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E74DADBF1BEB06E1000A5235 /* FinancialStatisticBUF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74DADD11BEB06E1000A5235 /* Build configuration list for PBXNativeTarget "FinancialStatisticBUF" */;
+			buildPhases = (
+				E74DADBB1BEB06E1000A5235 /* Sources */,
+				E74DADBC1BEB06E1000A5235 /* Frameworks */,
+				E74DADBD1BEB06E1000A5235 /* Headers */,
+				E74DADBE1BEB06E1000A5235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C8849A1C22E49E003C19E6 /* PBXTargetDependency */,
+			);
+			name = FinancialStatisticBUF;
+			productName = FinancialStatisticBUF;
+			productReference = E74DADC01BEB06E1000A5235 /* FinancialStatisticBUF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E74DADC81BEB06E1000A5235 /* FinancialStatisticBUFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74DADD41BEB06E1000A5235 /* Build configuration list for PBXNativeTarget "FinancialStatisticBUFTests" */;
+			buildPhases = (
+				E74DADC51BEB06E1000A5235 /* Sources */,
+				E74DADC61BEB06E1000A5235 /* Frameworks */,
+				E74DADC71BEB06E1000A5235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74DADF81BEB0B2B000A5235 /* PBXTargetDependency */,
+			);
+			name = FinancialStatisticBUFTests;
+			productName = FinancialStatisticBUFTests;
+			productReference = E74DADC91BEB06E1000A5235 /* FinancialStatisticBUFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70B59671BD23A5000836601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Somiya;
+				TargetAttributes = {
+					E70B59991BD2874700836601 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E74DADBF1BEB06E1000A5235 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E74DADC81BEB06E1000A5235 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E70B596A1BD23A5000836601 /* Build configuration list for PBXProject "FinancialStatisticBU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E70B59661BD23A5000836601;
+			productRefGroup = E70B59701BD23A5000836601 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7CD5B451BE21F19007B4C1B /* Products */;
+					ProjectRef = E7CD5B441BE21F19007B4C1B /* BaseBusiness.xcodeproj */;
+				},
+				{
+					ProductGroup = E77BD2D81BEB3095007D14EA /* Products */;
+					ProjectRef = E77BD2D71BEB3095007D14EA /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E74DADBF1BEB06E1000A5235 /* FinancialStatisticBUF */,
+				E70B59991BD2874700836601 /* FinancialStatisticBundle */,
+				E74DADC81BEB06E1000A5235 /* FinancialStatisticBUFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E77BD2DD1BEB3095007D14EA /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = E77BD2DC1BEB3095007D14EA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E77BD2DF1BEB3095007D14EA /* ChartsTV.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChartsTV.framework;
+			remoteRef = E77BD2DE1BEB3095007D14EA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7CD5B4B1BE21F19007B4C1B /* BaseBusiness.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BaseBusiness.framework;
+			remoteRef = E7CD5B4A1BE21F19007B4C1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7CD5B4D1BE21F19007B4C1B /* BaseBusinessTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BaseBusinessTests.xctest;
+			remoteRef = E7CD5B4C1BE21F19007B4C1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7CD5B4F1BE21F19007B4C1B /* BaseBusinessBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BaseBusinessBundle.bundle;
+			remoteRef = E7CD5B4E1BE21F19007B4C1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70B59981BD2874700836601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70B59F61BD29C7900836601 /* FinancialStatistic.storyboard in Resources */,
+				E7C883EC1C22CB3B003C19E6 /* bg_tk_003@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DADBE1BEB06E1000A5235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DADC71BEB06E1000A5235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70B59961BD2874700836601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DADBB1BEB06E1000A5235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70CE95C1BF45D2D0069EF66 /* ReportingDetailViewController.m in Sources */,
+				E74DADDC1BEB076F000A5235 /* WaterballView.m in Sources */,
+				E74DADDD1BEB076F000A5235 /* LineView.m in Sources */,
+				E74DADDE1BEB076F000A5235 /* FinancialStatisticViewController.m in Sources */,
+				E74DADDF1BEB076F000A5235 /* FinancialStatisticBU.m in Sources */,
+				E77BD2E51BEB30B7007D14EA /* MyCustomXValueFormatter.m in Sources */,
+				E7ED5C9C1C0327D500C469A3 /* FinancialStatisticBusObject.m in Sources */,
+				E77BD2E31BEB30B7007D14EA /* BalloonMarker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74DADC51BEB06E1000A5235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74DADCF1BEB06E1000A5235 /* FinancialStatisticBUFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74DADF81BEB0B2B000A5235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74DADBF1BEB06E1000A5235 /* FinancialStatisticBUF */;
+			targetProxy = E74DADF71BEB0B2B000A5235 /* PBXContainerItemProxy */;
+		};
+		E7C8849A1C22E49E003C19E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E70B59991BD2874700836601 /* FinancialStatisticBundle */;
+			targetProxy = E7C884991C22E49E003C19E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E70B59761BD23A5000836601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E70B59771BD23A5000836601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70B599E1BD2874700836601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = FinancialStatisticBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotmail.FinancialStatisticBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E70B599F1BD2874700836601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = FinancialStatisticBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotmail.FinancialStatisticBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E74DADD21BEB06E1000A5235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FinancialStatisticBUF/FinancialStatistic-PrefixHeader.pch";
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				INFOPLIST_FILE = FinancialStatisticBUF/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotmail.FinancialStatisticBUF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E74DADD31BEB06E1000A5235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FinancialStatisticBUF/FinancialStatistic-PrefixHeader.pch";
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				INFOPLIST_FILE = FinancialStatisticBUF/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotmail.FinancialStatisticBUF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E74DADD51BEB06E1000A5235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FinancialStatisticBUFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotmail.FinancialStatisticBUFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E74DADD61BEB06E1000A5235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FinancialStatisticBUFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hotmail.FinancialStatisticBUFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70B596A1BD23A5000836601 /* Build configuration list for PBXProject "FinancialStatisticBU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70B59761BD23A5000836601 /* Debug */,
+				E70B59771BD23A5000836601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70B599D1BD2874700836601 /* Build configuration list for PBXNativeTarget "FinancialStatisticBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70B599E1BD2874700836601 /* Debug */,
+				E70B599F1BD2874700836601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74DADD11BEB06E1000A5235 /* Build configuration list for PBXNativeTarget "FinancialStatisticBUF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74DADD21BEB06E1000A5235 /* Debug */,
+				E74DADD31BEB06E1000A5235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74DADD41BEB06E1000A5235 /* Build configuration list for PBXNativeTarget "FinancialStatisticBUFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74DADD51BEB06E1000A5235 /* Debug */,
+				E74DADD61BEB06E1000A5235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E70B59671BD23A5000836601 /* Project object */;
+}

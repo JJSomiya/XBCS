@@ -1,0 +1,21 @@
+//
+//  PersonalCenterBU-PrefixHeader.pch
+//  PersonalCenterBU
+//
+//  Created by Somiya on 15/10/19.
+//  Copyright © 2015年 Somiya. All rights reserved.
+//
+
+#ifndef PersonalCenterBU_PrefixHeader_pch
+#define PersonalCenterBU_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <pop/POP.h>
+#import <BaseBusiness/BaseBusiness.h>
+//#import "Block.h"
+//#import <BlocksKit/BlocksKit+MessageUI.h>
+//#import <BlocksKit/BlocksKit+UIKit.h>
+//#import <BlocksKit/BlocksKit+QuickLook.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#endif /* PersonalCenterBU_PrefixHeader_pch */

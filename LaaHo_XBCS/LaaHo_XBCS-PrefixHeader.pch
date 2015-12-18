@@ -1,0 +1,27 @@
+//
+//  LaaHo_XBCS-PrefixHeader.pch
+//  LaaHo_XBCS
+//
+//  Created by Somiya on 15/10/19.
+//  Copyright © 2015年 Somiya. All rights reserved.
+//
+
+#ifndef LaaHo_XBCS_PrefixHeader_pch
+#define LaaHo_XBCS_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constants.h"
+#import <BaseBusiness/BaseBusiness.h>
+
+#ifndef __OPTIMIZE__
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define NSLog(...) {}
+
+#endif
+
+#endif /* LaaHo_XBCS_PrefixHeader_pch */

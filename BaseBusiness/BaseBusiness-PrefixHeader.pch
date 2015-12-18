@@ -1,0 +1,28 @@
+//
+//  BaseBusiness-PrefixHeader.pch
+//  BaseBusiness
+//
+//  Created by Somiya on 15/10/19.
+//  Copyright © 2015年 Somiya. All rights reserved.
+//
+
+#ifndef BaseBusiness_PrefixHeader_pch
+#define BaseBusiness_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constants.h"
+#import "NetworkingConstants.h"
+#import "GlobalSetting.h"
+
+#ifndef __OPTIMIZE__
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define NSLog(...) {}
+
+#endif
+
+#endif /* BaseBusiness_PrefixHeader_pch */

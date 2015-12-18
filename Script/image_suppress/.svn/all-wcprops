@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/suji/!svn/ver/12798/trunk/EMWorkSpaceIPhone/Script/image_suppress
+END
+optipng
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/suji/!svn/ver/12798/trunk/EMWorkSpaceIPhone/Script/image_suppress/optipng
+END
+gifsicle
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/suji/!svn/ver/12798/trunk/EMWorkSpaceIPhone/Script/image_suppress/gifsicle
+END
+jpegtran
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/suji/!svn/ver/12798/trunk/EMWorkSpaceIPhone/Script/image_suppress/jpegtran
+END

@@ -1,0 +1,16 @@
+//
+//  ProductBU-PrefixHeader.pch
+//  ProductBU
+//
+//  Created by Somiya on 15/11/16.
+//  Copyright © 2015年 Somiya. All rights reserved.
+//
+
+#ifndef ProductBU_PrefixHeader_pch
+#define ProductBU_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <BaseBusiness/BaseBusiness.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#endif /* ProductBU_PrefixHeader_pch */
